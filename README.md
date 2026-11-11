@@ -4,6 +4,16 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Five-second continuous video overlay
+
+![Five-second actual TOAGA video with same-frame 2D pose overlay and visible quality flags](assets/toaga-continuous-overlay.gif)
+
+[Full 30fps MP4, all150 frames](assets/toaga-continuous-overlay.mp4) · [Failure-inclusive QC frames](assets/toaga-continuous-qc.png) · [Quality results](results/continuous_overlay_quality.json) · [Method and limits](assets/CONTINUOUS_OVERLAY.md)
+
+실제 영상의6~11초 구간을 연속 처리했습니다. **150프레임 중149프레임에서 포즈가 검출됐지만,12관절 모두 기준을 통과한 것은116프레임**입니다. 검출률은 정확도가 아닙니다. 누락·좌우 라벨 불안정·좌표 튐을 숨기거나 보간하지 않았습니다.
+
+**Review required before expansion:**107/1800 joint observations were missing/below0.3 confidence;13 frames had swap-like review flags and11 had large-jump flags. These exploratory flags are not all verified errors. The preview GIF is downsampled;the MP4 preserves every source frame,including the no-pose frame. Manual initial ROI;no clinical validation,ground truth or OpenSim IK.
+
 ## Real-video pose overlay
 
 ![Actual TOAGA video frame beside a 2D pose overlay on the identical photograph](assets/toaga-video-overlay.png)
