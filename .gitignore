@@ -6,7 +6,10 @@ node_modules/
 .DS_Store
 __pycache__/
 *.pyc
-data/
+data/*
+!data/README.md
+!data/source_files.json
+!data/SHA256SUMS
 models/
 outputs/
 backups/
