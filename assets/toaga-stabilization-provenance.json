@@ -1,0 +1,165 @@
+{
+  "source": {
+    "dataset": "TOAGA",
+    "source_video": "Videos/OAW02-bottom.mp4",
+    "source_video_sha256": "d8bc306c82a5bd0b32f9b7c3f4bfcdb48e04c063a146b798fe63adea4fdba462",
+    "source_url": "https://springernature.figshare.com/articles/dataset/Walking_videos/19929893",
+    "article": "https://doi.org/10.1038/s41597-022-01495-z",
+    "recorded_source_license": "CC0",
+    "source_frames_zero_based": [
+      180,
+      329
+    ],
+    "source_interval_seconds": [
+      6,
+      11
+    ],
+    "MP4_frames": 150,
+    "MP4_fps": 30,
+    "MP4_duration_seconds": 5,
+    "GIF_preview_fps": 10,
+    "body_points": 12,
+    "confidence_cutoff": 0.3,
+    "CPU_only": true,
+    "manual_initial_roi": [
+      480,
+      250,
+      300,
+      400
+    ],
+    "display_camera": "Fixed-size crop follows predicted hip; on missing-pose frame only camera center is retained,not the joints",
+    "joint_interpolation": false,
+    "joint_smoothing": false,
+    "face_points": false,
+    "original_face_obscuring_retained": true,
+    "OpenSim_result": false,
+    "clinical_accuracy": false,
+    "files": [
+      {
+        "file": "toaga-continuous-overlay.mp4",
+        "bytes": 980916,
+        "sha256": "17283ea3dec5fb45955581553a696357062482a7fb8a320f54a55f3c7ddf21e0"
+      },
+      {
+        "file": "toaga-continuous-overlay.gif",
+        "bytes": 2917501,
+        "sha256": "03bdea5ca3dd813989860a4aded1a97a535439e6a9be9afe92a8ff4bd1904ce7"
+      },
+      {
+        "file": "toaga-continuous-qc.png",
+        "bytes": 573286,
+        "sha256": "9b785a2dfb458ec95016d3e1ebd324eda4bf7a7d100fa6eeb8f365a29e1c1798"
+      },
+      {
+        "file": "toaga-continuous-predictions.json",
+        "bytes": 233293,
+        "sha256": "b98ebe95e016929a72ca84c1960fcd91e81496a66ed7e707346a7da0dfdaa6da"
+      }
+    ]
+  },
+  "source_interval_s": [
+    6,
+    11
+  ],
+  "source_frame_indices": [
+    180,
+    329
+  ],
+  "MP4": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "30/1",
+        "duration": "5.000000",
+        "nb_read_frames": "150"
+      }
+    ]
+  },
+  "GIF_preview_fps": 10,
+  "selected_roi": {
+    "x": 460,
+    "y": 220,
+    "w": 400,
+    "h": 700
+  },
+  "fallback_roi": {
+    "x": 400,
+    "y": 150,
+    "w": 520,
+    "h": 850
+  },
+  "fallback_used_frames": 0,
+  "identity_candidates_per_frame": 1,
+  "display_camera": "Exact frozen baseline display ROI and JPEG crop reused on BOTH panels;all150frames and valid candidate points verified inside shared camera.",
+  "QC_frame_indices_zero_based": [
+    31,
+    41,
+    65,
+    95,
+    120,
+    149
+  ],
+  "original_face_obscuration_preserved": true,
+  "TOAGA_pose_CSV_used": false,
+  "development_notes": {
+    "baseline_immutable": true,
+    "first_fixed_ROI": [
+      480,
+      240,
+      360,
+      560
+    ],
+    "first_fixed_ROI_pose_frames": 150,
+    "first_fixed_ROI_not_selected_reason": "Bottom edge800 nearly touches baseline observed ankle799;larger padding chosen before judging final quality.",
+    "selected_padded_ROI": [
+      460,
+      220,
+      400,
+      700
+    ],
+    "fallback_ROI": [
+      400,
+      150,
+      520,
+      850
+    ],
+    "same_clip_retrospective_development": true,
+    "not_independent_validation": true
+  },
+  "invariants": {
+    "frame_count": 150,
+    "same_source_frame_indices": true,
+    "coordinate_confidence_multisets_preserved": true,
+    "candidate_points_outside_shared_camera": []
+  },
+  "files": [
+    {
+      "file": "toaga-stabilization-comparison.mp4",
+      "bytes": 1488448,
+      "sha256": "e122f0ed19aa5845bd116bb820b822c10af1c81c259d2790692936b192620ac4"
+    },
+    {
+      "file": "toaga-stabilization-comparison.gif",
+      "bytes": 3556085,
+      "sha256": "83f703b2f16343db40b3e70039eff2c861df3803d6f5a2f3ea213d661814657c"
+    },
+    {
+      "file": "toaga-stabilization-qc.png",
+      "bytes": 699866,
+      "sha256": "bb97a1eeef3566a01594c7b2b5a247a55f076f7ea71b6d5d88baea5fe2473463"
+    },
+    {
+      "file": "toaga-padded-roi-native.json",
+      "bytes": 217971,
+      "sha256": "8d5896aafe2a3e74ea9db313804bab39ba00a0bf5e4663b32811f0edac515a1d"
+    },
+    {
+      "file": "toaga-stabilized-predictions.json",
+      "bytes": 409182,
+      "sha256": "c1e19eeffe87619a86f520eccd4dccab807e6fcaed2fe858b8f29e6e77f1bd1a"
+    }
+  ]
+}

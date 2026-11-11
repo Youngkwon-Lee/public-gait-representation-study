@@ -1,0 +1,1450 @@
+{
+  "scope": "Retrospective engineering on one public TOAGA participant, same five seconds [6,11),150frames,not independent validation",
+  "variants": [
+    {
+      "variant": "baseline",
+      "pose_frames": 149,
+      "all12_frames": 116,
+      "missing_joint_observations": 107,
+      "swap_like_frames": 13,
+      "large_jump_frames": 11,
+      "max_step_px": 95.46939926952324,
+      "flagged_frames": [
+        {
+          "index": 30,
+          "source_frame": 210,
+          "time_s": 7,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 31,
+          "source_frame": 211,
+          "time_s": 7.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_forearm_joint",
+            "swap_like_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 32,
+          "source_frame": 212,
+          "time_s": 7.066666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 34,
+          "source_frame": 214,
+          "time_s": 7.133333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 35,
+          "source_frame": 215,
+          "time_s": 7.166666666666667,
+          "flags": [
+            "multiple_candidates"
+          ]
+        },
+        {
+          "index": 36,
+          "source_frame": 216,
+          "time_s": 7.2,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 43,
+          "source_frame": 223,
+          "time_s": 7.433333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 57,
+          "source_frame": 237,
+          "time_s": 7.9,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 58,
+          "source_frame": 238,
+          "time_s": 7.933333333333334,
+          "flags": [
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 59,
+          "source_frame": 239,
+          "time_s": 7.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_forearm_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 60,
+          "source_frame": 240,
+          "time_s": 8,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_forearm_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 61,
+          "source_frame": 241,
+          "time_s": 8.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 62,
+          "source_frame": 242,
+          "time_s": 8.066666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 63,
+          "source_frame": 243,
+          "time_s": 8.1,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_left_hand_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 66,
+          "source_frame": 246,
+          "time_s": 8.2,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 67,
+          "source_frame": 247,
+          "time_s": 8.233333333333334,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 70,
+          "source_frame": 250,
+          "time_s": 8.333333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 71,
+          "source_frame": 251,
+          "time_s": 8.366666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 78,
+          "source_frame": 258,
+          "time_s": 8.6,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 79,
+          "source_frame": 259,
+          "time_s": 8.633333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 80,
+          "source_frame": 260,
+          "time_s": 8.666666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 82,
+          "source_frame": 262,
+          "time_s": 8.733333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 85,
+          "source_frame": 265,
+          "time_s": 8.833333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 89,
+          "source_frame": 269,
+          "time_s": 8.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 90,
+          "source_frame": 270,
+          "time_s": 9,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 91,
+          "source_frame": 271,
+          "time_s": 9.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 92,
+          "source_frame": 272,
+          "time_s": 9.066666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 95,
+          "source_frame": 275,
+          "time_s": 9.166666666666666,
+          "flags": [
+            "no_pose"
+          ]
+        },
+        {
+          "index": 96,
+          "source_frame": 276,
+          "time_s": 9.2,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 97,
+          "source_frame": 277,
+          "time_s": 9.233333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 98,
+          "source_frame": 278,
+          "time_s": 9.266666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 99,
+          "source_frame": 279,
+          "time_s": 9.3,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 100,
+          "source_frame": 280,
+          "time_s": 9.333333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 101,
+          "source_frame": 281,
+          "time_s": 9.366666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 102,
+          "source_frame": 282,
+          "time_s": 9.4,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 112,
+          "source_frame": 292,
+          "time_s": 9.733333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 123,
+          "source_frame": 303,
+          "time_s": 10.1,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 125,
+          "source_frame": 305,
+          "time_s": 10.166666666666668,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 127,
+          "source_frame": 307,
+          "time_s": 10.233333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 128,
+          "source_frame": 308,
+          "time_s": 10.266666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "tight_ROI_not_selected",
+      "pose_frames": 150,
+      "all12_frames": 144,
+      "missing_joint_observations": 6,
+      "swap_like_frames": 0,
+      "large_jump_frames": 2,
+      "max_step_px": 79.80492816578594,
+      "flagged_frames": [
+        {
+          "index": 14,
+          "source_frame": 194,
+          "time_s": 6.466666666666667,
+          "flags": [
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 15,
+          "source_frame": 195,
+          "time_s": 6.5,
+          "flags": [
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 27,
+          "source_frame": 207,
+          "time_s": 6.9,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 95,
+          "source_frame": 275,
+          "time_s": 9.166666666666666,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 146,
+          "source_frame": 326,
+          "time_s": 10.866666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 147,
+          "source_frame": 327,
+          "time_s": 10.9,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 148,
+          "source_frame": 328,
+          "time_s": 10.933333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 149,
+          "source_frame": 329,
+          "time_s": 10.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "padded_ROI_native",
+      "pose_frames": 150,
+      "all12_frames": 143,
+      "missing_joint_observations": 11,
+      "swap_like_frames": 9,
+      "large_jump_frames": 18,
+      "max_step_px": 93.33125032660558,
+      "flagged_frames": [
+        {
+          "index": 1,
+          "source_frame": 181,
+          "time_s": 6.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 2,
+          "source_frame": 182,
+          "time_s": 6.066666666666666,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 4,
+          "source_frame": 184,
+          "time_s": 6.133333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 28,
+          "source_frame": 208,
+          "time_s": 6.933333333333334,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint"
+          ]
+        },
+        {
+          "index": 33,
+          "source_frame": 213,
+          "time_s": 7.1,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_hand_joint"
+          ]
+        },
+        {
+          "index": 34,
+          "source_frame": 214,
+          "time_s": 7.133333333333333,
+          "flags": [
+            "large_step_left_hand_joint"
+          ]
+        },
+        {
+          "index": 36,
+          "source_frame": 216,
+          "time_s": 7.2,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 41,
+          "source_frame": 221,
+          "time_s": 7.366666666666667,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 42,
+          "source_frame": 222,
+          "time_s": 7.4,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 43,
+          "source_frame": 223,
+          "time_s": 7.433333333333334,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 45,
+          "source_frame": 225,
+          "time_s": 7.5,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 56,
+          "source_frame": 236,
+          "time_s": 7.866666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint"
+          ]
+        },
+        {
+          "index": 57,
+          "source_frame": 237,
+          "time_s": 7.9,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint"
+          ]
+        },
+        {
+          "index": 59,
+          "source_frame": 239,
+          "time_s": 7.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 60,
+          "source_frame": 240,
+          "time_s": 8,
+          "flags": [
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 62,
+          "source_frame": 242,
+          "time_s": 8.066666666666666,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 64,
+          "source_frame": 244,
+          "time_s": 8.133333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 65,
+          "source_frame": 245,
+          "time_s": 8.166666666666666,
+          "flags": [
+            "large_step_right_forearm_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        },
+        {
+          "index": 66,
+          "source_frame": 246,
+          "time_s": 8.2,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_shoulder_1_joint",
+            "large_step_left_forearm_joint",
+            "large_step_right_forearm_joint",
+            "large_step_left_hand_joint",
+            "large_step_right_hand_joint",
+            "swap_like_left_shoulder_1_joint",
+            "swap_like_left_upLeg_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "global_labels",
+      "pose_frames": 150,
+      "all12_frames": 143,
+      "missing_joint_observations": 11,
+      "swap_like_frames": 1,
+      "large_jump_frames": 10,
+      "max_step_px": 93.33125032660558,
+      "flagged_frames": [
+        {
+          "index": 1,
+          "source_frame": 181,
+          "time_s": 6.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 4,
+          "source_frame": 184,
+          "time_s": 6.133333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 33,
+          "source_frame": 213,
+          "time_s": 7.1,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 34,
+          "source_frame": 214,
+          "time_s": 7.133333333333333,
+          "flags": [
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 41,
+          "source_frame": 221,
+          "time_s": 7.366666666666667,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 42,
+          "source_frame": 222,
+          "time_s": 7.4,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 43,
+          "source_frame": 223,
+          "time_s": 7.433333333333334,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 45,
+          "source_frame": 225,
+          "time_s": 7.5,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 56,
+          "source_frame": 236,
+          "time_s": 7.866666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 59,
+          "source_frame": 239,
+          "time_s": 7.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 60,
+          "source_frame": 240,
+          "time_s": 8,
+          "flags": [
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 64,
+          "source_frame": 244,
+          "time_s": 8.133333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_forearm_joint"
+          ]
+        },
+        {
+          "index": 65,
+          "source_frame": 245,
+          "time_s": 8.166666666666666,
+          "flags": [
+            "large_step_left_forearm_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "segments_without_prior_REJECTED",
+      "pose_frames": 150,
+      "all12_frames": 143,
+      "missing_joint_observations": 11,
+      "swap_like_frames": 0,
+      "large_jump_frames": 10,
+      "max_step_px": 93.33125032660558,
+      "flagged_frames": [
+        {
+          "index": 1,
+          "source_frame": 181,
+          "time_s": 6.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 4,
+          "source_frame": 184,
+          "time_s": 6.133333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 33,
+          "source_frame": 213,
+          "time_s": 7.1,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 34,
+          "source_frame": 214,
+          "time_s": 7.133333333333333,
+          "flags": [
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 41,
+          "source_frame": 221,
+          "time_s": 7.366666666666667,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 42,
+          "source_frame": 222,
+          "time_s": 7.4,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 43,
+          "source_frame": 223,
+          "time_s": 7.433333333333334,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_forearm_joint"
+          ]
+        },
+        {
+          "index": 45,
+          "source_frame": 225,
+          "time_s": 7.5,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 56,
+          "source_frame": 236,
+          "time_s": 7.866666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 59,
+          "source_frame": 239,
+          "time_s": 7.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 60,
+          "source_frame": 240,
+          "time_s": 8,
+          "flags": [
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 64,
+          "source_frame": 244,
+          "time_s": 8.133333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_forearm_joint"
+          ]
+        },
+        {
+          "index": 65,
+          "source_frame": 245,
+          "time_s": 8.166666666666666,
+          "flags": [
+            "large_step_left_forearm_joint"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "conditional_segments_SELECTED",
+      "pose_frames": 150,
+      "all12_frames": 143,
+      "missing_joint_observations": 11,
+      "swap_like_frames": 1,
+      "large_jump_frames": 10,
+      "max_step_px": 93.33125032660558,
+      "flagged_frames": [
+        {
+          "index": 1,
+          "source_frame": 181,
+          "time_s": 6.033333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 4,
+          "source_frame": 184,
+          "time_s": 6.133333333333334,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 33,
+          "source_frame": 213,
+          "time_s": 7.1,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 34,
+          "source_frame": 214,
+          "time_s": 7.133333333333333,
+          "flags": [
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 41,
+          "source_frame": 221,
+          "time_s": 7.366666666666667,
+          "flags": [
+            "large_step_right_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 42,
+          "source_frame": 222,
+          "time_s": 7.4,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_right_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 43,
+          "source_frame": 223,
+          "time_s": 7.433333333333334,
+          "flags": [
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 45,
+          "source_frame": 225,
+          "time_s": 7.5,
+          "flags": [
+            "large_step_left_shoulder_1_joint",
+            "large_step_right_hand_joint"
+          ]
+        },
+        {
+          "index": 56,
+          "source_frame": 236,
+          "time_s": 7.866666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint"
+          ]
+        },
+        {
+          "index": 59,
+          "source_frame": 239,
+          "time_s": 7.966666666666667,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 60,
+          "source_frame": 240,
+          "time_s": 8,
+          "flags": [
+            "large_step_left_shoulder_1_joint"
+          ]
+        },
+        {
+          "index": 64,
+          "source_frame": 244,
+          "time_s": 8.133333333333333,
+          "flags": [
+            "low_confidence_or_missing_joint",
+            "large_step_left_forearm_joint"
+          ]
+        },
+        {
+          "index": 65,
+          "source_frame": 245,
+          "time_s": 8.166666666666666,
+          "flags": [
+            "large_step_left_forearm_joint",
+            "swap_like_left_leg_joint",
+            "swap_like_left_foot_joint"
+          ]
+        }
+      ]
+    }
+  ],
+  "newly_flagged_frames_vs_baseline": [
+    {
+      "index": 1,
+      "source_frame": 181,
+      "time_s": 6.033333333333333,
+      "flags": [
+        "low_confidence_or_missing_joint"
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame": 184,
+      "time_s": 6.133333333333334,
+      "flags": [
+        "low_confidence_or_missing_joint"
+      ]
+    },
+    {
+      "index": 33,
+      "source_frame": 213,
+      "time_s": 7.1,
+      "flags": [
+        "low_confidence_or_missing_joint",
+        "large_step_right_hand_joint"
+      ]
+    },
+    {
+      "index": 41,
+      "source_frame": 221,
+      "time_s": 7.366666666666667,
+      "flags": [
+        "large_step_right_shoulder_1_joint",
+        "large_step_right_hand_joint"
+      ]
+    },
+    {
+      "index": 42,
+      "source_frame": 222,
+      "time_s": 7.4,
+      "flags": [
+        "low_confidence_or_missing_joint",
+        "large_step_right_shoulder_1_joint"
+      ]
+    },
+    {
+      "index": 45,
+      "source_frame": 225,
+      "time_s": 7.5,
+      "flags": [
+        "large_step_left_shoulder_1_joint",
+        "large_step_right_hand_joint"
+      ]
+    },
+    {
+      "index": 56,
+      "source_frame": 236,
+      "time_s": 7.866666666666667,
+      "flags": [
+        "low_confidence_or_missing_joint"
+      ]
+    },
+    {
+      "index": 64,
+      "source_frame": 244,
+      "time_s": 8.133333333333333,
+      "flags": [
+        "low_confidence_or_missing_joint",
+        "large_step_left_forearm_joint"
+      ]
+    },
+    {
+      "index": 65,
+      "source_frame": 245,
+      "time_s": 8.166666666666666,
+      "flags": [
+        "large_step_left_forearm_joint",
+        "swap_like_left_leg_joint",
+        "swap_like_left_foot_joint"
+      ]
+    }
+  ],
+  "newly_missing_source_frames_vs_baseline": [
+    181,
+    184,
+    213,
+    222,
+    236,
+    244
+  ],
+  "relabelled_frames": 15,
+  "relabelling_metadata": {
+    "method": "offline_segment_four_state_viterbi",
+    "offline_future_use": true,
+    "future_use_disclosure": "Full sequence is processed offline and backtracked; not an online/causal tracker.",
+    "states": [
+      "both_native",
+      "upper_swapped",
+      "lower_swapped",
+      "both_swapped"
+    ],
+    "state_encoding": "upper bit=1, lower bit=2",
+    "objective_comparison_caveat": "Self-metric only. Sum of segment means has a different scale from global mode; cross-mode objective totals are not comparable accuracy measures.",
+    "segment_pairs": {
+      "upper": [
+        "shoulder_1",
+        "forearm",
+        "hand"
+      ],
+      "lower": [
+        "upLeg",
+        "leg",
+        "foot"
+      ]
+    },
+    "segment_switch_count": 20,
+    "segment_switch_counts": {
+      "upper": 10,
+      "lower": 10
+    },
+    "anchor": {
+      "frame_position": 0,
+      "source_frame": 180,
+      "policy": "first_accepted_pose_native",
+      "anatomical_identity_verified": false,
+      "caveat": "The first accepted pose is anchored to native detector labels. Its anatomical left/right identity is unknown; a wrong anchor is retained. Temporal objective reduction is not independent validation."
+    },
+    "torso_order_prior": {
+      "enabled": true,
+      "penalty": 0.2,
+      "minimum_separation": 15,
+      "confidence_cutoff": 0.5,
+      "anchor_frame_position": 0,
+      "native_anchor_screen_order_signs": {
+        "upper": 1,
+        "lower": 1
+      },
+      "anchor_eligibility": "Raw first accepted native x-order sign; no confidence/separation gate on reference. Missing/nonfinite/zero separation disables that reference. Confidence/separation gates apply to current observations only.",
+      "eligible_segment_observation_count": 260,
+      "selected_unary_violation_count": 0,
+      "native_unary_violation_count": 17,
+      "applied_on": "accepted poses only; other frames retain the carried state without unary evidence",
+      "caveat": "Opt-in post-hoc engineering assumption for frontal no-turn clips only, not anatomical truth or independent validation. Do not use for turns, mirroring changes, or when fixed screen-order/unmirrored assumptions are invalid."
+    },
+    "objective_params": {
+      "confidenceCutoff": 0.3,
+      "transitionPenalty": 0.005,
+      "huberDelta": 0.1,
+      "minBilateralPairs": 2,
+      "minBodyHeight": 1e-9,
+      "evidenceTolerance": 0.000001,
+      "torsoOrderPenalty": 0.2,
+      "torsoMinSeparation": 15,
+      "torsoConfidenceCutoff": 0.5,
+      "displacement": "Euclidean joint displacement / previous accepted pose vertical extent of confidence-qualified joints",
+      "robust_loss": "Huber(r)/delta: r^2/(2*delta) for r<=delta, otherwise r-delta/2",
+      "confidence_weight": "min(1, previous confidence, current confidence)",
+      "aggregation": "sum of upper and lower segment mean confidence-weighted Huber costs; complete bilateral pairs only",
+      "missing_pose_policy": "Bridge accepted poses without elapsed-time normalization; carry state on other frames, never coordinates",
+      "transition": "transitionPenalty per changed segment bit between accepted pose states"
+    },
+    "accepted_frame_positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
+    ],
+    "applied_frames": [
+      1,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      42,
+      56,
+      62,
+      63,
+      64,
+      65
+    ],
+    "applied_frame_count": 15,
+    "switch_count": 12,
+    "segment_conflict_edges": [
+      [
+        32,
+        33
+      ],
+      [
+        33,
+        34
+      ],
+      [
+        42,
+        43
+      ],
+      [
+        64,
+        65
+      ]
+    ],
+    "segment_conflict_count": 4,
+    "objective": {
+      "native_temporal": 1.8467309900739406,
+      "selected_temporal": 0.5368811150289146,
+      "selected_transition_penalty": 0.1,
+      "selected_prior_cost": 0,
+      "native_prior_cost": 2.0475213289260865,
+      "selected_temporal_plus_transition": 0.6368811150289145,
+      "selected_total": 0.6368811150289145,
+      "independent_validation": false
+    },
+    "limitations": [
+      "The first accepted pose is anchored to native detector labels. Its anatomical left/right identity is unknown; a wrong anchor is retained. Temporal objective reduction is not independent validation.",
+      "Only entire upper/lower segments may swap; individual pairs are never independently reordered. Segment conflict flags are temporal evidence, not anatomical validation.",
+      "Crossings, fast motion, occlusion, long gaps, and changing perspective may defeat temporal continuity.",
+      "Low-confidence or null poses supply no state evidence; carried label state is not a detection or an imputed coordinate.",
+      "Body height is a 2-D vertical extent proxy, not calibrated physical height. No ground-truth accuracy is measured."
+    ]
+  },
+  "conditional_on": "First native anchor labels + fixed frontal no-turn torso screen-order prior,penalty0.2;do not apply to turns or mirroring changes.",
+  "coordinate_smoothing": false,
+  "interpolated_joint_observations": 0,
+  "confidence_boosting": false,
+  "source_frame_identity_preserved": true,
+  "selected_native_to_relabelled_coordinates_and_confidences_exact": true,
+  "ground_truth_accuracy_measured": false,
+  "identity_switch_ground_truth_measured": false,
+  "readiness": "REVIEW_REQUIRED_NOT_READY_FOR_COHORT_EXPANSION"
+}

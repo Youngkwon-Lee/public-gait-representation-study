@@ -4,6 +4,14 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Stabilization comparison: same source frames
+
+[![Same-frame before and after, conditional stabilization with retained failure flags](assets/toaga-stabilization-comparison.gif)](assets/toaga-stabilization-comparison.mp4)
+
+[Full30fps comparison MP4](assets/toaga-stabilization-comparison.mp4) · [Failures and regressions](assets/toaga-stabilization-qc.png) · [Full variant results](results/stabilization_comparison_quality.json) · [Method, rejected variants and limits](assets/STABILIZATION_COMPARISON.md)
+
+**같은150프레임의 보정 전후 비교입니다.** 검출149→150프레임,12관절 모두 기준 통과116→143프레임, 누락/기준 미달 관절107→11개, 좌우 의심13→1프레임입니다. **큰 좌표 튐은11→10프레임으로 여전히 남고, 일부 프레임은 오히려 악화됐습니다.** 좌표를 평활화하거나 누락을 채워 숨기지 않았습니다. 정면·회전 없는 구간의 첫 프레임 기준 라벨 가정이며 해부학적 좌우 정확도는 미검증입니다. 독립 검증 전 코호트를 늘리지 않습니다.
+
 ## Five-second continuous video overlay
 
 ![Five-second actual TOAGA video with same-frame 2D pose overlay and visible quality flags](assets/toaga-continuous-overlay.gif)
