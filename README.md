@@ -4,6 +4,14 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Representative measured-marker preview
+
+![Measured lower-limb markers from one public gait trial, not an IK result](assets/marker-preview.gif)
+
+[Full-rate MP4](assets/marker-preview.mp4) · [Static frame](assets/marker-static.png) · [Source and rendering details](assets/README.md)
+
+One public trial, not a representative clinical cohort result. Lines are visual guides between observed markers, **not anatomical bones, inferred joints or an OpenSim IK solution**. No actual-person video, private data, missing-marker imputation or AI-generated movement is included.
+
 ## What is verified
 
 - Public Mendeley dataset audit:44 participants, ages54–87;31 aged65+. Five quality-selected retained walks per person,220 records. The source collected10 walks and kept the best5.

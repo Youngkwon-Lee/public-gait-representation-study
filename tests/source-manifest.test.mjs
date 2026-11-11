@@ -1,4 +1,7 @@
+import fs from 'node:fs';
 import test from 'node:test';import assert from 'node:assert/strict';import {entries,options,destination} from '../tools/source-manifest.mjs';
 test('Eight byte-pinned public sources with two dataset selectors',()=>{const all=entries('all');assert.equal(all.length,8);assert.equal(entries('mendeley').length,1);assert.equal(entries('toaga').length,7);assert.equal(new Set(all.map(f=>f.relative_path)).size,8);for(const f of all){assert.match(f.sha256,/^[0-9a-f]{64}$/);assert(Number.isSafeInteger(f.bytes)&&f.bytes>0);assert.equal(new URL(f.download_url).protocol,'https:')}});
 test('Download CLI requires explicit valid root/dataset and rejects duplicates',()=>{assert.throws(()=>options([]));assert.throws(()=>options(['--root','x','--dataset','other']));assert.throws(()=>options(['--root','x','--root','y','--dataset','all']));assert.equal(options(['--root','x','--dataset','mendeley']).dataset,'mendeley')});
 test('Manifest path traversal cannot escape source-data root',()=>{assert.throws(()=>destination('/tmp/example-data-root','../escape.zip'));assert.equal(destination('/tmp/example-data-root','sub/source.zip'),'/tmp/example-data-root/sub/source.zip')});
+
+test('Raw download and rendering work directories stay ignored',()=>{const rules=fs.readFileSync(new URL('../.gitignore',import.meta.url),'utf8').split(/\r?\n/);assert(rules.includes('runs/'));assert(rules.includes('data-local/'));assert(rules.includes('*.trc'));assert(rules.includes('*.c3d'))});

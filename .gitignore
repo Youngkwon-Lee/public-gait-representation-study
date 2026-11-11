@@ -28,3 +28,5 @@ opensim.log
 *.xlsm
 *.xml
 *.log
+runs/
+data-local/

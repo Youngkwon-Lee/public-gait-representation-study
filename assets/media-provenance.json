@@ -1,0 +1,45 @@
+{
+  "source": "https://doi.org/10.17632/xgw6bg3g8h.1",
+  "source_license": "CC BY 4.0",
+  "attribution": "Caicedo Rodriguez et al. (2020); full contributor names in CITATION.md",
+  "trial": "Subject01_01",
+  "source_native_trc_sha256": "93e380d674afce80f3d682888c10ed5e51958a6d46925df7253e494b7545fe59",
+  "source_frames": 602,
+  "source_frame_range": [
+    566,
+    1167
+  ],
+  "source_rate_hz": 100,
+  "first_to_last_sample_span_s": 6.01,
+  "mp4_duration_s": 6.02,
+  "mp4_frame_count": 602,
+  "gif_duration_s": 6,
+  "gif_display_fps": 20,
+  "static_source_frame": 866,
+  "static_source_time_s": 3,
+  "transforms": "Candidate axis permutation (Y,Z,X) and mm to m. Per-frame pelvis-marker centroid subtraction affects horizontal display camera only.",
+  "guide_links": "Between observed marker locations, not bones or inferred joint centres",
+  "missing_markers_imputed": false,
+  "Scaling_run": false,
+  "IK_run": false,
+  "AI_run": false,
+  "full_body_imputed": false,
+  "contains_actual_person_video": false,
+  "files": [
+    {
+      "file": "marker-preview.gif",
+      "bytes": 3971142,
+      "sha256": "d5e1cee85a09950423032574a985322041f68cf6d64fdab9f83b3ca81befeaa3"
+    },
+    {
+      "file": "marker-preview.mp4",
+      "bytes": 618495,
+      "sha256": "4b8bb56b0d07823ee371afa2fcdc587409c3574f2b018a51638686ccb3d64f58"
+    },
+    {
+      "file": "marker-static.png",
+      "bytes": 108278,
+      "sha256": "5aadcf24efde4456ad56c63a713641dc0a7473a382bfaa92b978f7e5db98920a"
+    }
+  ]
+}
