@@ -4,6 +4,16 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Real-video pose overlay
+
+![Actual TOAGA video frame beside a 2D pose overlay on the identical photograph](assets/toaga-video-overlay.png)
+
+실제 보행 영상의 사진 위에 2D 포즈를 겹친 예시입니다. 왼쪽은 원본 사진, 오른쪽은 같은 사진에 추정 관절을 표시했습니다. 원본 얼굴 가림은 유지했습니다.
+
+This uses the **separate TOAGA public dataset**, source frame180 at6.00s. Pose was estimated on that exact image using macOS Vision with a manually selected region. This is **not the Mendeley marker trial, not the released TOAGA OpenPose CSV, not OpenSim IK and not a validated clinical measurement**.
+
+[Image and method details](assets/TOAGA_OVERLAY.md) · [Exact provenance and coordinates](assets/toaga-overlay-provenance.json)
+
 ## Representative measured-marker preview
 
 ![Measured lower-limb markers from one public gait trial, not an IK result](assets/marker-preview.gif)

@@ -1,0 +1,110 @@
+{
+  "dataset": "Toronto Older Adults Gait Archive",
+  "video_entry": "Videos/OAW02-bottom.mp4",
+  "video_sha256": "d8bc306c82a5bd0b32f9b7c3f4bfcdb48e04c063a146b798fe63adea4fdba462",
+  "video_archive_source": "https://springernature.figshare.com/articles/dataset/Walking_videos/19929893",
+  "dataset_article": "https://doi.org/10.1038/s41597-022-01495-z",
+  "source_item_license": "CC0 as recorded by source manifest; original data source must be cited",
+  "frame_index_zero_based": 180,
+  "video_time_seconds": 6,
+  "video_fps": 30,
+  "original_image_pixels": [
+    1080,
+    1920
+  ],
+  "model": "macOS Vision VNDetectHumanBodyPoseRequest",
+  "inference_execution": "CPU only, on the exact source frame crop; no downloaded model files",
+  "inference_roi_xywh": [
+    480,
+    250,
+    300,
+    400
+  ],
+  "display_roi_xywh": [
+    540,
+    290,
+    180,
+    280
+  ],
+  "roi_selection": "Manually selected walking-participant ROI. Full-frame detection returned no bodies; cropped detection returned one.",
+  "coordinate_conversion": "Original pixels x=480+normalized_x*300; y=250+(1-normalized_y)*400. Same image, no temporal offset or cross-dataset alignment.",
+  "confidence_threshold": 0.3,
+  "body_joints_drawn": 12,
+  "joint_pixels": {
+    "left_shoulder_1_joint": {
+      "x": 652.4820613861084,
+      "y": 329.07938957214355,
+      "confidence": 0.7184154987335205
+    },
+    "right_shoulder_1_joint": {
+      "x": 604.8003512620926,
+      "y": 330.49068450927734,
+      "confidence": 0.710449755191803
+    },
+    "left_upLeg_joint": {
+      "x": 634.9566864967346,
+      "y": 403.6949157714844,
+      "confidence": 0.5421891212463379
+    },
+    "right_upLeg_joint": {
+      "x": 608.8468301296234,
+      "y": 401.77502632141113,
+      "confidence": 0.5741102695465088
+    },
+    "left_forearm_joint": {
+      "x": 654.6895372867584,
+      "y": 369.1981315612793,
+      "confidence": 0.6757938861846924
+    },
+    "left_hand_joint": {
+      "x": 658.6464214324951,
+      "y": 400.14147758483887,
+      "confidence": 0.7412824034690857
+    },
+    "right_forearm_joint": {
+      "x": 593.6268585920334,
+      "y": 365.70048332214355,
+      "confidence": 0.6130328178405762
+    },
+    "right_hand_joint": {
+      "x": 592.0234340429306,
+      "y": 397.14531898498535,
+      "confidence": 0.5923305749893188
+    },
+    "left_leg_joint": {
+      "x": 631.6085028648376,
+      "y": 452.02980041503906,
+      "confidence": 0.6078284978866577
+    },
+    "left_foot_joint": {
+      "x": 628.4807521104813,
+      "y": 506.5700054168701,
+      "confidence": 0.7275914549827576
+    },
+    "right_leg_joint": {
+      "x": 607.0944982767105,
+      "y": 448.7027406692505,
+      "confidence": 0.6002849340438843
+    },
+    "right_foot_joint": {
+      "x": 610.2151322364807,
+      "y": 489.5324230194092,
+      "confidence": 0.7903797030448914
+    }
+  },
+  "facial_joints_displayed": false,
+  "original_face_obscuring_retained": true,
+  "published_pose_CSV_used": false,
+  "published_pose_CSV_alignment_verified": false,
+  "OpenSim_run": false,
+  "clinical_accuracy_validated": false,
+  "manual_joint_position_adjustments": false,
+  "limitations": [
+    "Single-frame illustrative 2D inference; not a validated clinical measurement or tracking pipeline.",
+    "No overlay of Mendeley markers onto TOAGA video.",
+    "Inference ROI manually selected, not evidence of robust full-frame detection.",
+    "Published TOAGA CSVs use trimmed walks; their temporal offset was not assumed."
+  ],
+  "source_frame_png_sha256": "94285930103bb6250a1f24eb3fda593a834dd23531aec304080eb5b8f77af5dc",
+  "overlay_image_sha256": "470c6ec4669abf13100dd0d219560363506d7628b5957d6b65d9b1151569cbd0"
+}
