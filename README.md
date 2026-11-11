@@ -4,6 +4,14 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Model-estimated XYZ: interactive3D pose, not measured motion
+
+[![Same model XYZ from front, side and orbit views](assets/toaga-world3d-three-views.png)](assets/toaga-model-world3d-viewer.html)
+
+[Standalone rotating3D viewer (download HTML)](assets/toaga-model-world3d-viewer.html) · [3D pose animation](assets/toaga-world3d-front-side.mp4) · [Raw XYZ JSON](assets/toaga-model-world3d.json) · [XYZ CSV](assets/toaga-model-world3d.csv) · [Coordinate limits](assets/MODEL_WORLD3D.md)
+
+**이번 출력은 깊이 Z가 있는 모델 추정3D 골격입니다.** 같은150프레임에서12관절의 XYZ를 그대로 추출해 회전·재생할 수 있게 했습니다. 골반 중심 상대좌표라 실제 공간 이동경로는 없으며, 실측3D·체형메시·OpenSim 결과나 정확도 검증이 아닙니다. **본 연구의44명 Vicon 실측3D와 이1인 영상추정 데모는 별개**입니다. [연구 범위와 남은3D 검증](docs/3D_SCOPE.md)
+
 ## Video-mode tracking comparison: fixed input and display
 
 [![Same-frame previous jitter versus MediaPipe VIDEO tracking with fixed framing](assets/toaga-video-mode-comparison.gif)](assets/toaga-video-mode-comparison.mp4)

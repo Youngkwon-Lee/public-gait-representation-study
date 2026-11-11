@@ -1,0 +1,111 @@
+{
+  "frames": 150,
+  "joints_per_frame": 12,
+  "world_point_observations": 1800,
+  "finite_world_components": 5400,
+  "raw_model_unit": "estimated meters;not calibrated physical measurement",
+  "raw_xyz_extents": {
+    "x": {
+      "min": -0.260446697473526,
+      "max": 0.3281792104244232
+    },
+    "y": {
+      "min": -0.46696558594703674,
+      "max": 0.7739554643630981
+    },
+    "z": {
+      "min": -0.32673776149749756,
+      "max": 0.45460379123687744
+    }
+  },
+  "hip_midpoint_max_distance_from_zero_model_m": 0.001088123247734686,
+  "max_adjacent_3D_step_model_m": 0.10921246727736278,
+  "image_replay_max_difference_from_prior_px": 0,
+  "nonzero_depth": true,
+  "source_worldLandmarks_not_image_z": true,
+  "no_crop_transform_on_world": true,
+  "display_rotation": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "display_rotation_determinant": 1,
+  "ground_truth_3D_error_measured": false,
+  "global_root_translation_recovered": false,
+  "OpenSim_Scaling_or_IK": false,
+  "largest_3D_steps": [
+    {
+      "index": 5,
+      "source_frame": 185,
+      "joint": "right_foot_joint",
+      "model_m": 0.10921246727736278
+    },
+    {
+      "index": 128,
+      "source_frame": 308,
+      "joint": "left_foot_joint",
+      "model_m": 0.09649543287618498
+    },
+    {
+      "index": 136,
+      "source_frame": 316,
+      "joint": "left_foot_joint",
+      "model_m": 0.09350317281980244
+    },
+    {
+      "index": 97,
+      "source_frame": 277,
+      "joint": "left_hand_joint",
+      "model_m": 0.09346459609059862
+    },
+    {
+      "index": 4,
+      "source_frame": 184,
+      "joint": "left_foot_joint",
+      "model_m": 0.09260624387705592
+    },
+    {
+      "index": 21,
+      "source_frame": 201,
+      "joint": "right_foot_joint",
+      "model_m": 0.09240675579958829
+    },
+    {
+      "index": 109,
+      "source_frame": 289,
+      "joint": "right_foot_joint",
+      "model_m": 0.09101622390206471
+    },
+    {
+      "index": 4,
+      "source_frame": 184,
+      "joint": "right_shoulder_1_joint",
+      "model_m": 0.08860452077016027
+    },
+    {
+      "index": 40,
+      "source_frame": 220,
+      "joint": "right_foot_joint",
+      "model_m": 0.08825089907963687
+    },
+    {
+      "index": 51,
+      "source_frame": 231,
+      "joint": "left_foot_joint",
+      "model_m": 0.08513762006608339
+    }
+  ],
+  "note": "3D steps include true movement and estimation errors;not an accuracy metric. No groundtruth3D comparison."
+}

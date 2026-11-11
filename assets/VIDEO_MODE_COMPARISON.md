@@ -4,7 +4,7 @@ The earlier label-stabilized clip did not solve position jumps. Its maximum step
 
 ## What actually ran
 
-- One public TOAGA `OAW02-bottom.mp4` subject, the unchanged150 source frames180–329, source [6,11)seconds at30fps. No cohort expansion, original video upload, private46-person data, or TOAGA pose CSV alignment.
+- One public TOAGA `OAW02-bottom.mp4` subject, the unchanged150 source frames180–329, source [6,11)seconds at30fps. No cohort expansion, original video upload, nonpublic data, or TOAGA pose CSV alignment.
 - Official MediaPipe PoseLandmarker FULL float16 model v1, tasks-vision1.2.2, CPU delegate, runningMode VIDEO, one continuous task instance, numPoses1. Model/detection/presence/tracking thresholds0.5. Twelve shoulder/elbow/wrist/hip/knee/ankle landmarks exported; no face, world/depth coordinates or segmentation exported.
 - **VIDEO includes vendor tracking and internal landmark/visibility smoothing.** The exported coordinates are unmodified SDK VIDEO outputs, not unsmoothed network estimates. No additional application filter, outlier rejection, imputation, confidence boosting, manual point adjustment, or Viterbi label correction.
 - Input ROI is constant `(460,220,400,700)` in original1080×1920 pixels. A preliminary run used the old Vision-derived moving crop; the selected fixed input removes that dependency. Original coordinates are recovered exactly as `x=460+400*crop_x,y=220+700*crop_y`.
