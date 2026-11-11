@@ -1,0 +1,221 @@
+{
+  "baseline_source_record": {
+    "dataset": "TOAGA",
+    "source_video": "Videos/OAW02-bottom.mp4",
+    "source_video_sha256": "d8bc306c82a5bd0b32f9b7c3f4bfcdb48e04c063a146b798fe63adea4fdba462",
+    "source_url": "https://springernature.figshare.com/articles/dataset/Walking_videos/19929893",
+    "article": "https://doi.org/10.1038/s41597-022-01495-z",
+    "recorded_source_license": "CC0",
+    "source_frames_zero_based": [
+      180,
+      329
+    ],
+    "source_interval_seconds": [
+      6,
+      11
+    ],
+    "MP4_frames": 150,
+    "MP4_fps": 30,
+    "MP4_duration_seconds": 5,
+    "GIF_preview_fps": 10,
+    "body_points": 12,
+    "confidence_cutoff": 0.3,
+    "CPU_only": true,
+    "manual_initial_roi": [
+      480,
+      250,
+      300,
+      400
+    ],
+    "display_camera": "Fixed-size crop follows predicted hip; on missing-pose frame only camera center is retained,not the joints",
+    "joint_interpolation": false,
+    "joint_smoothing": false,
+    "face_points": false,
+    "original_face_obscuring_retained": true,
+    "OpenSim_result": false,
+    "clinical_accuracy": false,
+    "files": [
+      {
+        "file": "toaga-continuous-overlay.mp4",
+        "bytes": 980916,
+        "sha256": "17283ea3dec5fb45955581553a696357062482a7fb8a320f54a55f3c7ddf21e0"
+      },
+      {
+        "file": "toaga-continuous-overlay.gif",
+        "bytes": 2917501,
+        "sha256": "03bdea5ca3dd813989860a4aded1a97a535439e6a9be9afe92a8ff4bd1904ce7"
+      },
+      {
+        "file": "toaga-continuous-qc.png",
+        "bytes": 573286,
+        "sha256": "9b785a2dfb458ec95016d3e1ebd324eda4bf7a7d100fa6eeb8f365a29e1c1798"
+      },
+      {
+        "file": "toaga-continuous-predictions.json",
+        "bytes": 233293,
+        "sha256": "b98ebe95e016929a72ca84c1960fcd91e81496a66ed7e707346a7da0dfdaa6da"
+      }
+    ]
+  },
+  "source_interval_s": [
+    6,
+    11
+  ],
+  "source_frames": [
+    180,
+    329
+  ],
+  "input_and_display_roi": {
+    "x": 460,
+    "y": 220,
+    "w": 400,
+    "h": 700
+  },
+  "source_width": 1080,
+  "source_height": 1920,
+  "fixed_JPEG_crops": 150,
+  "display_camera_constant": true,
+  "both_panels_same_JPEG_on_each_frame": true,
+  "MP4": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1280,
+        "height": 900,
+        "r_frame_rate": "30/1",
+        "duration": "5.000000",
+        "nb_read_frames": "150"
+      }
+    ]
+  },
+  "GIF_fps": 30,
+  "model_config": {
+    "package_version": "1.2.2",
+    "model_version": "float16/1",
+    "artifacts": [
+      {
+        "file": "vision_bundle.mjs",
+        "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/vision_bundle.mjs",
+        "sha256": "b65acb59b370cd6561afd9d04c29ed7a87e7ed6386922ac1b263af1f1ad06b7d"
+      },
+      {
+        "file": "wasm/vision_wasm_internal.js",
+        "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.js",
+        "sha256": "f2b9c17131ea79716ec6bf07b117a087b2749a6f8a1e2f1f2e77a9382092db5b"
+      },
+      {
+        "file": "wasm/vision_wasm_internal.wasm",
+        "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.wasm",
+        "sha256": "f5bd25147ac89d506074293ce2675969b10e827180db95a0d9689c2ed80764ab"
+      },
+      {
+        "file": "pose_landmarker_full.task",
+        "url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+        "sha256": "5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1"
+      }
+    ],
+    "profile": {
+      "source": "Public TOAGA OAW02-bottom.mp4",
+      "first_source_frame": 180,
+      "frames": 150,
+      "fps": 30,
+      "original_width": 1080,
+      "original_height": 1920,
+      "input_roi": {
+        "x": 460,
+        "y": 220,
+        "w": 400,
+        "h": 700
+      }
+    },
+    "metadata": {
+      "estimator": "official MediaPipe PoseLandmarker FULL",
+      "package_version": "1.2.2",
+      "model_version": "float16/1",
+      "package_url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/vision_bundle.mjs",
+      "wasm_urls": [
+        "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.js",
+        "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.wasm"
+      ],
+      "model_url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+      "sha256": "b65acb59b370cd6561afd9d04c29ed7a87e7ed6386922ac1b263af1f1ad06b7d  vision_bundle.mjs\nf2b9c17131ea79716ec6bf07b117a087b2749a6f8a1e2f1f2e77a9382092db5b  wasm/vision_wasm_internal.js\nf5bd25147ac89d506074293ce2675969b10e827180db95a0d9689c2ed80764ab  wasm/vision_wasm_internal.wasm\n5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1  pose_landmarker_full.task\n",
+      "runningMode": "VIDEO",
+      "delegate": "CPU",
+      "numPoses": 1,
+      "thresholds": {
+        "minPoseDetectionConfidence": 0.5,
+        "minPosePresenceConfidence": 0.5,
+        "minTrackingConfidence": 0.5
+      },
+      "confidence": "unmodified visibility; presence also retained raw; no calibration equivalence with Apple Vision",
+      "temporal_processing": "Vendor VIDEO stream tracking and internal smoothing are enabled for single-pose stream inference. Official graph source sets smooth_landmarks=use_stream_mode when num_poses==1, with visibility low-pass and landmark One Euro smoothing. Values exported are unmodified SDK outputs, not unsmoothed network logits; no extra application filter, rejection, imputation or score boosting.",
+      "mapping": "Fixed400x700ROI: x=460+crop_x*400,y=220+crop_y*700;no baseline-estimator crop dependency",
+      "source_frames": [
+        180,
+        329
+      ],
+      "fps": 30,
+      "timestamps": "index*1000/30 milliseconds, index 0..149, continuous same task instance across five 30-frame chunks",
+      "export": "12 limb/body landmarks only; no face, depth, world coordinates or segmentation exported",
+      "candidate_count": "returned poses with numPoses=1, not total persons in scene",
+      "docs": [
+        "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker/web_js",
+        "https://raw.githubusercontent.com/google-ai-edge/mediapipe-samples-web/main/src/tasks/pose-landmarker.ts"
+      ],
+      "smoothing_sources": [
+        "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/cc/vision/pose_landmarker/pose_landmarker_graph.cc?plain=1",
+        "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/cc/vision/pose_landmarker/pose_landmarks_detector_graph.cc"
+      ],
+      "source_verification_note": "Smoothing behavior documented from current official source; package JS/WASM exact bytes pinned by SHA256SUMS, no independent compiled-graph inspection."
+    }
+  },
+  "final_execution": "Public runner Run150 CPU frames button;all150 processed in one VIDEO instance;coordinates exactly matched independent fixed-ROI pass",
+  "independent_fixed_pass_coordinate_max_difference": 0,
+  "application_filter": false,
+  "joint_rejection": false,
+  "imputation": false,
+  "score_boosting": false,
+  "custom_label_assignment": false,
+  "vendor_VIDEO_internal_tracking_smoothing": true,
+  "original_face_obscuration_retained": true,
+  "export_face_world_depth": false,
+  "TOAGA_pose_CSV_used": false,
+  "QC_indices": [
+    33,
+    41,
+    44,
+    64,
+    97,
+    138
+  ],
+  "files": [
+    {
+      "file": "toaga-video-mode-comparison.mp4",
+      "bytes": 1053018,
+      "sha256": "d1e31eb6ffc022e571545252c9f14c5205a3c456609562926bac4f7558bddbf4"
+    },
+    {
+      "file": "toaga-video-mode-comparison.gif",
+      "bytes": 5271633,
+      "sha256": "96df64ded200668d0a48977f0a4d931adf228dc0926ee264badce337c8c2c733"
+    },
+    {
+      "file": "toaga-video-mode-qc.png",
+      "bytes": 790035,
+      "sha256": "5d2e46cb185c9c6d9fe4c8317779884c973f584b9dd2031dc8ae0c5200926715"
+    },
+    {
+      "file": "toaga-mediapipe-fixed-predictions.json",
+      "bytes": 430281,
+      "sha256": "20de1eacc042cfcfd9d434d068308e82ed92e766b7a4b9c9cd1810549e9a26b4"
+    },
+    {
+      "file": "toaga-mediapipe-moving-predictions.json",
+      "bytes": 637187,
+      "sha256": "09e746da468973b5c30543071915abbab164e6e0d379ee70e66385fbe5e9edc3"
+    }
+  ],
+  "GIF_frames": 150,
+  "GIF_timing_note": "GIF centisecond timing quantizes30fps intervals;MP4 is exact30fps."
+}

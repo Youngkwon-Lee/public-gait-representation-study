@@ -4,6 +4,14 @@ Exploratory research on **retained-walk repeatability, left/right asymmetry, and
 
 **Research work in progress. Not a fall-prediction model, not a validated clinical tool, and not a complete subject-specific OpenSim pipeline.**
 
+## Video-mode tracking comparison: fixed input and display
+
+[![Same-frame previous jitter versus MediaPipe VIDEO tracking with fixed framing](assets/toaga-video-mode-comparison.gif)](assets/toaga-video-mode-comparison.mp4)
+
+[Full30fps comparison MP4](assets/toaga-video-mode-comparison.mp4) · [Failure-interval QC](assets/toaga-video-mode-qc.png) · [Model, timing, scores and limits](assets/VIDEO_MODE_COMPARISON.md) · [Exact comparison results](results/video_mode_comparison_quality.json)
+
+**이전 버전은 좌표 튐을 해결하지 못했습니다.** 이번에는 MediaPipe 영상 추적 모드와 고정 입력/표시 영역으로 바꿨습니다. 같은150프레임에서 최대 관절 이동93.33→13.90픽셀,50픽셀 초과 이동12→0회입니다. SDK가 보고한12관절 좌표를150프레임 모두 유지했으며 추가 필터·점 제외·보간은 하지 않았습니다. **SDK 내부 추적/평활화는 포함**되며, 신뢰도 척도는 이전 모델과 다르고 해부학적 정확도는 미검증이며 이번 CPU 실행은 실시간30fps가 아닙니다.
+
 ## Stabilization comparison: same source frames
 
 [![Same-frame before and after, conditional stabilization with retained failure flags](assets/toaga-stabilization-comparison.gif)](assets/toaga-stabilization-comparison.mp4)

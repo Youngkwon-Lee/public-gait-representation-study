@@ -1,0 +1,80 @@
+{
+  "package_version": "1.2.2",
+  "model_version": "float16/1",
+  "artifacts": [
+    {
+      "file": "vision_bundle.mjs",
+      "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/vision_bundle.mjs",
+      "sha256": "b65acb59b370cd6561afd9d04c29ed7a87e7ed6386922ac1b263af1f1ad06b7d"
+    },
+    {
+      "file": "wasm/vision_wasm_internal.js",
+      "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.js",
+      "sha256": "f2b9c17131ea79716ec6bf07b117a087b2749a6f8a1e2f1f2e77a9382092db5b"
+    },
+    {
+      "file": "wasm/vision_wasm_internal.wasm",
+      "url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.wasm",
+      "sha256": "f5bd25147ac89d506074293ce2675969b10e827180db95a0d9689c2ed80764ab"
+    },
+    {
+      "file": "pose_landmarker_full.task",
+      "url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+      "sha256": "5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1"
+    }
+  ],
+  "profile": {
+    "source": "Public TOAGA OAW02-bottom.mp4",
+    "first_source_frame": 180,
+    "frames": 150,
+    "fps": 30,
+    "original_width": 1080,
+    "original_height": 1920,
+    "input_roi": {
+      "x": 460,
+      "y": 220,
+      "w": 400,
+      "h": 700
+    }
+  },
+  "metadata": {
+    "estimator": "official MediaPipe PoseLandmarker FULL",
+    "package_version": "1.2.2",
+    "model_version": "float16/1",
+    "package_url": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/vision_bundle.mjs",
+    "wasm_urls": [
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.js",
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.2.2/wasm/vision_wasm_internal.wasm"
+    ],
+    "model_url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+    "sha256": "b65acb59b370cd6561afd9d04c29ed7a87e7ed6386922ac1b263af1f1ad06b7d  vision_bundle.mjs\nf2b9c17131ea79716ec6bf07b117a087b2749a6f8a1e2f1f2e77a9382092db5b  wasm/vision_wasm_internal.js\nf5bd25147ac89d506074293ce2675969b10e827180db95a0d9689c2ed80764ab  wasm/vision_wasm_internal.wasm\n5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1  pose_landmarker_full.task\n",
+    "runningMode": "VIDEO",
+    "delegate": "CPU",
+    "numPoses": 1,
+    "thresholds": {
+      "minPoseDetectionConfidence": 0.5,
+      "minPosePresenceConfidence": 0.5,
+      "minTrackingConfidence": 0.5
+    },
+    "confidence": "unmodified visibility; presence also retained raw; no calibration equivalence with Apple Vision",
+    "temporal_processing": "Vendor VIDEO stream tracking and internal smoothing are enabled for single-pose stream inference. Official graph source sets smooth_landmarks=use_stream_mode when num_poses==1, with visibility low-pass and landmark One Euro smoothing. Values exported are unmodified SDK outputs, not unsmoothed network logits; no extra application filter, rejection, imputation or score boosting.",
+    "mapping": "Fixed400x700ROI: x=460+crop_x*400,y=220+crop_y*700;no baseline-estimator crop dependency",
+    "source_frames": [
+      180,
+      329
+    ],
+    "fps": 30,
+    "timestamps": "index*1000/30 milliseconds, index 0..149, continuous same task instance across five 30-frame chunks",
+    "export": "12 limb/body landmarks only; no face, depth, world coordinates or segmentation exported",
+    "candidate_count": "returned poses with numPoses=1, not total persons in scene",
+    "docs": [
+      "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker/web_js",
+      "https://raw.githubusercontent.com/google-ai-edge/mediapipe-samples-web/main/src/tasks/pose-landmarker.ts"
+    ],
+    "smoothing_sources": [
+      "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/cc/vision/pose_landmarker/pose_landmarker_graph.cc?plain=1",
+      "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/cc/vision/pose_landmarker/pose_landmarks_detector_graph.cc"
+    ],
+    "source_verification_note": "Smoothing behavior documented from current official source; package JS/WASM exact bytes pinned by SHA256SUMS, no independent compiled-graph inspection."
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "quantile_definition": "Linear interpolation at index(n-1)*p (type7)",
+  "scope": "Same one-person5sclip,150frames180-329. Post-hoc engineering,not held-out validation.",
+  "threshold": 0.3,
+  "score_caveat": "Vision confidence and MediaPipe visibility are different,uncalibrated scores. Coverage is not accuracy;step includes true movement.",
+  "variants": [
+    {
+      "name": "original_vision",
+      "file": "assets/toaga-continuous-predictions.json",
+      "metrics": {
+        "frames": 150,
+        "detected_frames": 149,
+        "valid_observations": 1693,
+        "all12_frames": 116,
+        "adjacent_joint_comparisons": 1600,
+        "median_px": 2.3811542279036213,
+        "p95_px": 17.752215195305137,
+        "max_px": 95.46939926952324,
+        "steps_gt20": 72,
+        "steps_gt50": 40,
+        "largest": [
+          {
+            "index": 67,
+            "joint": "left_hand_joint",
+            "px": 95.46939926952324
+          },
+          {
+            "index": 66,
+            "joint": "right_hand_joint",
+            "px": 95.43359799435164
+          },
+          {
+            "index": 67,
+            "joint": "right_hand_joint",
+            "px": 94.88166905408275
+          },
+          {
+            "index": 66,
+            "joint": "left_hand_joint",
+            "px": 94.7163549311352
+          },
+          {
+            "index": 63,
+            "joint": "left_hand_joint",
+            "px": 92.28309560635384
+          },
+          {
+            "index": 57,
+            "joint": "right_hand_joint",
+            "px": 91.51503487766661
+          },
+          {
+            "index": 57,
+            "joint": "left_hand_joint",
+            "px": 91.4883178050237
+          },
+          {
+            "index": 36,
+            "joint": "left_hand_joint",
+            "px": 88.33766990412072
+          },
+          {
+            "index": 61,
+            "joint": "right_hand_joint",
+            "px": 87.21367796983745
+          },
+          {
+            "index": 98,
+            "joint": "left_forearm_joint",
+            "px": 87.1182163365963
+          }
+        ]
+      },
+      "latency": null
+    },
+    {
+      "name": "previous_label_corrected",
+      "file": "assets/toaga-stabilized-predictions.json",
+      "metrics": {
+        "frames": 150,
+        "detected_frames": 150,
+        "valid_observations": 1789,
+        "all12_frames": 143,
+        "adjacent_joint_comparisons": 1766,
+        "median_px": 2.3743942149722272,
+        "p95_px": 8.435379834997406,
+        "max_px": 93.33125032660558,
+        "steps_gt20": 14,
+        "steps_gt50": 12,
+        "largest": [
+          {
+            "index": 45,
+            "joint": "right_hand_joint",
+            "px": 93.33125032660558
+          },
+          {
+            "index": 41,
+            "joint": "right_hand_joint",
+            "px": 91.25950637643439
+          },
+          {
+            "index": 65,
+            "joint": "left_forearm_joint",
+            "px": 87.07056670604813
+          },
+          {
+            "index": 64,
+            "joint": "left_forearm_joint",
+            "px": 83.130309978114
+          },
+          {
+            "index": 34,
+            "joint": "right_hand_joint",
+            "px": 80.16033771800664
+          },
+          {
+            "index": 33,
+            "joint": "right_hand_joint",
+            "px": 79.38503568749817
+          },
+          {
+            "index": 59,
+            "joint": "left_shoulder_1_joint",
+            "px": 59.021676264953335
+          },
+          {
+            "index": 60,
+            "joint": "left_shoulder_1_joint",
+            "px": 58.14154859032006
+          },
+          {
+            "index": 45,
+            "joint": "left_shoulder_1_joint",
+            "px": 57.0734562306972
+          },
+          {
+            "index": 43,
+            "joint": "left_shoulder_1_joint",
+            "px": 56.07741316074231
+          }
+        ]
+      },
+      "latency": null
+    },
+    {
+      "name": "mediapipe_moving_input",
+      "file": "assets/toaga-mediapipe-moving-predictions.json",
+      "metrics": {
+        "frames": 150,
+        "detected_frames": 150,
+        "valid_observations": 1800,
+        "all12_frames": 150,
+        "adjacent_joint_comparisons": 1788,
+        "median_px": 2.640554200489584,
+        "p95_px": 7.555448838043803,
+        "max_px": 20.35167109476216,
+        "steps_gt20": 1,
+        "steps_gt50": 0,
+        "largest": [
+          {
+            "index": 138,
+            "joint": "right_foot_joint",
+            "px": 20.35167109476216
+          },
+          {
+            "index": 139,
+            "joint": "right_foot_joint",
+            "px": 16.197159914264518
+          },
+          {
+            "index": 91,
+            "joint": "left_foot_joint",
+            "px": 15.6442861491246
+          },
+          {
+            "index": 123,
+            "joint": "left_foot_joint",
+            "px": 15.3434715733749
+          },
+          {
+            "index": 72,
+            "joint": "right_foot_joint",
+            "px": 14.9223563218
+          },
+          {
+            "index": 125,
+            "joint": "left_foot_joint",
+            "px": 13.916275343403566
+          },
+          {
+            "index": 99,
+            "joint": "left_leg_joint",
+            "px": 13.609515732409717
+          },
+          {
+            "index": 142,
+            "joint": "left_foot_joint",
+            "px": 13.08541418266115
+          },
+          {
+            "index": 104,
+            "joint": "right_foot_joint",
+            "px": 12.589475327705383
+          },
+          {
+            "index": 140,
+            "joint": "right_foot_joint",
+            "px": 12.572443018261382
+          }
+        ]
+      },
+      "latency": {
+        "frames": 150,
+        "mean_ms": 104.5373333332936,
+        "median_ms": 94.20000000298023,
+        "p95_ms": 161.93999999612566,
+        "scope": "SDK detectForVideo only; excludes decoding,fetch,initialization. CPU delegate. Not30fps realtime."
+      }
+    },
+    {
+      "name": "mediapipe_fixed_input",
+      "file": "assets/toaga-mediapipe-fixed-predictions.json",
+      "metrics": {
+        "frames": 150,
+        "detected_frames": 150,
+        "valid_observations": 1800,
+        "all12_frames": 150,
+        "adjacent_joint_comparisons": 1788,
+        "median_px": 1.4480660638770977,
+        "p95_px": 5.657687149883443,
+        "max_px": 13.897435727966661,
+        "steps_gt20": 0,
+        "steps_gt50": 0,
+        "largest": [
+          {
+            "index": 124,
+            "joint": "left_foot_joint",
+            "px": 13.897435727966661
+          },
+          {
+            "index": 137,
+            "joint": "right_foot_joint",
+            "px": 13.636581070740439
+          },
+          {
+            "index": 51,
+            "joint": "left_foot_joint",
+            "px": 12.99202617324305
+          },
+          {
+            "index": 139,
+            "joint": "right_foot_joint",
+            "px": 12.960648040370103
+          },
+          {
+            "index": 138,
+            "joint": "right_foot_joint",
+            "px": 12.942725478322872
+          },
+          {
+            "index": 123,
+            "joint": "left_foot_joint",
+            "px": 12.84037348475278
+          },
+          {
+            "index": 90,
+            "joint": "left_foot_joint",
+            "px": 12.31577039381763
+          },
+          {
+            "index": 116,
+            "joint": "left_foot_joint",
+            "px": 11.88537896235083
+          },
+          {
+            "index": 125,
+            "joint": "left_foot_joint",
+            "px": 10.807490914648724
+          },
+          {
+            "index": 108,
+            "joint": "right_foot_joint",
+            "px": 10.76038307804318
+          }
+        ]
+      },
+      "latency": {
+        "frames": 150,
+        "mean_ms": 99.02466666698456,
+        "median_ms": 91.6000000089407,
+        "p95_ms": 149.06999998688684,
+        "scope": "SDK detectForVideo only; excludes decoding,fetch,initialization. CPU delegate. Not30fps realtime."
+      }
+    }
+  ],
+  "selection": "Fixed input removes dependency on Vision-derived moving ROI. VIDEO uses vendor tracking/internal smoothing;no extra app filter,point removal,imputation,score boosting,or label Viterbi.",
+  "fixed_roi": {
+    "x": 460,
+    "y": 220,
+    "w": 400,
+    "h": 700
+  },
+  "frame_dropping": false,
+  "ground_truth_accuracy_measured": false,
+  "clinical_validation": false,
+  "real_time_30fps_verified": false
+}
