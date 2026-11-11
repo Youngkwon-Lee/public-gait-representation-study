@@ -1,0 +1,60 @@
+{
+  "status": "BOUNDED_VALIDATION_ONLY_NOT_IK_READY",
+  "observed_on": "2026-11-11",
+  "trial": "Subject01_01",
+  "frames": 602,
+  "rate_hz": 100,
+  "markers": 24,
+  "CGM_angle_components": 30,
+  "initial_native_input_numeric_values_checked": 61404,
+  "initial_native_input_max_error": 0,
+  "R": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "source_units": "mm",
+  "target_units": "m",
+  "rotation_determinant": 1,
+  "original_frame_range": [
+    566,
+    1167
+  ],
+  "elapsed_first_to_last_seconds": 6.01,
+  "sample_count_over_rate_seconds": 6.02,
+  "pairwise_distances_checked": 166152,
+  "pairwise_distance_max_error_m": 4.440892098500626e-16,
+  "coordinate_roundtrip_max_error_mm": 4.547473508864641e-13,
+  "transformed_native_numeric_values_checked": 43344,
+  "transformed_native_max_error_m": 0,
+  "cross_host_float64_sha256": "21d1a20c72f8d01a7b535e0b12b8361e46be2c2c7f46da81375ab1eb52866c1c",
+  "cross_host_numeric_values_match": true,
+  "native_opensim_version": "4.4-2022-10-11-798caa840",
+  "native_python_version": "3.9.23",
+  "generic_marker_frame_connections": 6,
+  "generic_model_coordinate_count": 35,
+  "marker_region_candidates": 6,
+  "placement_review_required": 6,
+  "tracking_markers_not_mapped": 12,
+  "visualization_mesh_lookup_warnings": 81,
+  "anatomical_attachment_validated": false,
+  "external_laboratory_calibration_verified": false,
+  "subject_specific_scaling_run": false,
+  "IK_run": false,
+  "AI_run": false,
+  "GPU_requested": false,
+  "raw_data_in_repository": false,
+  "model_assets_in_repository": false
+}

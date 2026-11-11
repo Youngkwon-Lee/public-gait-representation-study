@@ -1,0 +1,156 @@
+{
+  "status": "EXPLORATORY_PILOT_NOT_CONFIRMATORY",
+  "created_utc": "2026-11-10T13:52:27.030Z",
+  "input_sha256": "69cdc7a00403c49293d92510bfb45d2a86b54724485ba3e142bb6c9b7e40fcbf",
+  "software": {
+    "node": "v24.18.0",
+    "spreadsheet_reader": "openpyxl 3.1.5; raw workbook data stored in input JSON"
+  },
+  "method": {
+    "icc": "One-way random-effects ICC(1,1) and ICC(1,5), conditional on the five quality-selected retained walks; trial positions treated as exchangeable, not confirmed chronological order.",
+    "bootstrap": "Participant-cluster percentile bootstrap; resample entire five-walk vectors; 5000 replicates per metric/sample.",
+    "seed": 20261110,
+    "replicates": 5000,
+    "self_tests_passed": 6,
+    "selection": "Three metrics chosen for feasibility before association testing; results are exploratory, not a preregistered confirmatory analysis."
+  },
+  "limitations": [
+    "Original protocol collected ten 12-m walks and retained the best five. This analysis cannot estimate the effect of selection because discarded walks are unavailable.",
+    "These are retained-trial repeatability estimates, NOT between-day test-retest reliability, smartphone/AI validation, or clinical meaningful-change thresholds.",
+    "Within-person SD includes biological performance variation and measurement/processing variation, which cannot be separated.",
+    "Absolute symmetry indices are nonnegative and can have a positive noise floor; low ICC can reflect restricted between-participant variation, not only within-participant error.",
+    "Percentile bootstrap intervals are exploratory and may be biased near ICC boundaries in small samples.",
+    "ICC(1,5) is derived from the same estimated variance components, not an independent empirical validation of averaging five walks.",
+    "No fall prediction, clinical score association tests, outcome-based variable selection, model training, or p-values computed.",
+    "Independent participant counts are 44 (primary) and 31 (age >=65 sensitivity), not 220.",
+    "Institutional ethics/IRB determination, analysis-plan review and complete novelty review remain unresolved."
+  ],
+  "results": [
+    {
+      "sample": "all_44",
+      "metric": "speed",
+      "label": "Mean bilateral walking speed",
+      "units": "source speed units; Vicon convention m/s needs source check",
+      "n_participants": 44,
+      "k_retained_walks": 5,
+      "participant_mean": 1.065927559090909,
+      "icc_1_1": 0.9211278668072396,
+      "icc_1_1_ci95": [
+        0.8658197406973912,
+        0.9493475102285394
+      ],
+      "icc_1_5": 0.9831632105621857,
+      "icc_1_5_ci95": [
+        0.9699368423000719,
+        0.9894416569550682
+      ],
+      "pooled_within_person_sd": 0.0610144525356586,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepTimeSI",
+      "label": "Absolute step-time symmetry index",
+      "units": "percentage points",
+      "n_participants": 44,
+      "k_retained_walks": 5,
+      "participant_mean": 4.0237006394122,
+      "icc_1_1": 0.07633224840415945,
+      "icc_1_1_ci95": [
+        -0.0730079720934411,
+        0.20881987809232883
+      ],
+      "icc_1_5": 0.29238701039141046,
+      "icc_1_5_ci95": [
+        -0.515616338172373,
+        0.5689048355115336
+      ],
+      "pooled_within_person_sd": 3.433938960455208,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepLengthSI",
+      "label": "Absolute step-length symmetry index",
+      "units": "percentage points",
+      "n_participants": 44,
+      "k_retained_walks": 5,
+      "participant_mean": 5.291713616072587,
+      "icc_1_1": 0.4419723402678047,
+      "icc_1_1_ci95": [
+        0.2535798250494377,
+        0.5884397586362006
+      ],
+      "icc_1_5": 0.798392353545436,
+      "icc_1_5_ci95": [
+        0.6294429649788776,
+        0.8772838961533816
+      ],
+      "pooled_within_person_sd": 3.567269705849418,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "speed",
+      "label": "Mean bilateral walking speed",
+      "units": "source speed units; Vicon convention m/s needs source check",
+      "n_participants": 31,
+      "k_retained_walks": 5,
+      "participant_mean": 1.0363858129032255,
+      "icc_1_1": 0.9020934059538422,
+      "icc_1_1_ci95": [
+        0.8138268871585469,
+        0.9408064053804064
+      ],
+      "icc_1_5": 0.9787546318857065,
+      "icc_1_5_ci95": [
+        0.9562491985591213,
+        0.9875727921947473
+      ],
+      "pooled_within_person_sd": 0.06243625009724435,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepTimeSI",
+      "label": "Absolute step-time symmetry index",
+      "units": "percentage points",
+      "n_participants": 31,
+      "k_retained_walks": 5,
+      "participant_mean": 4.364422567957353,
+      "icc_1_1": 0.07615621566805648,
+      "icc_1_1_ci95": [
+        -0.08219366670574507,
+        0.20613130048541664
+      ],
+      "icc_1_5": 0.2918701683795443,
+      "icc_1_5_ci95": [
+        -0.6122658367170595,
+        0.564890161092954
+      ],
+      "pooled_within_person_sd": 3.717337284529942,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepLengthSI",
+      "label": "Absolute step-length symmetry index",
+      "units": "percentage points",
+      "n_participants": 31,
+      "k_retained_walks": 5,
+      "participant_mean": 5.923435315396473,
+      "icc_1_1": 0.364306314578695,
+      "icc_1_1_ci95": [
+        0.1699063395368492,
+        0.5286081834019632
+      ],
+      "icc_1_5": 0.7412961293352169,
+      "icc_1_5_ci95": [
+        0.5057864189281902,
+        0.848642800433154
+      ],
+      "pooled_within_person_sd": 3.987198445617405,
+      "bootstrap_valid": 5000
+    }
+  ]
+}

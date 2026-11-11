@@ -1,0 +1,243 @@
+{
+  "created_utc": "2026-11-11T00:16:12.740Z",
+  "source_sha256": "69cdc7a00403c49293d92510bfb45d2a86b54724485ba3e142bb6c9b7e40fcbf",
+  "seed": 20261111,
+  "bootstrap_replicates": 5000,
+  "self_test_cases_passed": 6,
+  "specification": {
+    "stage": "EXPLORATORY_SENSITIVITY_AFTER_PILOT",
+    "not_preregistered": true,
+    "known_before_sensitivity": "Prior absolute-index and speed ICC results were already inspected.",
+    "preselected_checks": [
+      "Absolute versus signed 200*(L-R)/(L+R); speed retained as reference.",
+      "One-way ICC(1,1) versus two-way absolute-agreement ICC(A,1), single-record estimates only.",
+      "All 44 participants and >=65 subset31, no participant/outlier exclusions.",
+      "Report every combination; do not choose the model or index yielding the largest ICC."
+    ],
+    "inference_limits": [
+      "Two-way trial positions are numerical columns only; chronological correspondence is unverified. It is a numerical stress test, not evidence of temporal/order effects.",
+      "Signed and absolute indices quantify direction and magnitude differently; higher signed ICC does not prove a universally superior index or a causal explanation for the difference.",
+      "Five best retained walks of ten only; no general between-day reliability, future falls prediction or clinical validity claim.",
+      "Participant-vector percentile bootstrap is exploratory, not an exact confidence procedure for small samples or boundary ICCs.",
+      "No association tests, clinical subgroup comparisons, p-values, model training, provider code or private data used."
+    ],
+    "rules_declared_in_analysis_code_before_execution": true,
+    "rules_file_written_at_run_completion": true
+  },
+  "results": [
+    {
+      "sample": "all_44",
+      "metric": "speed",
+      "n": 44,
+      "walks_per_person": 5,
+      "one_way": 0.9211278668072396,
+      "one_way_ci95": [
+        0.8659657649278417,
+        0.9497081017432388
+      ],
+      "two_way_absolute": 0.9213016036322667,
+      "two_way_absolute_ci95": [
+        0.8665133289054723,
+        0.9497770666873268
+      ],
+      "within_sd": 0.0610144525356586,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepTimeAbs",
+      "n": 44,
+      "walks_per_person": 5,
+      "one_way": 0.07633224840415945,
+      "one_way_ci95": [
+        -0.0759142944225879,
+        0.20192883950240845
+      ],
+      "two_way_absolute": 0.0753536912397284,
+      "two_way_absolute_ci95": [
+        -0.07181312941665552,
+        0.20482197341735195
+      ],
+      "within_sd": 3.433938960455208,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepTimeSigned",
+      "n": 44,
+      "walks_per_person": 5,
+      "one_way": 0.11579614922609054,
+      "one_way_ci95": [
+        -0.007368238876512549,
+        0.24835031403743793
+      ],
+      "two_way_absolute": 0.11337492925062957,
+      "two_way_absolute_ci95": [
+        -0.00429016790764778,
+        0.24891505965503408
+      ],
+      "within_sd": 5.019535775824359,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepLengthAbs",
+      "n": 44,
+      "walks_per_person": 5,
+      "one_way": 0.4419723402678047,
+      "one_way_ci95": [
+        0.24911737437477977,
+        0.5873814491071957
+      ],
+      "two_way_absolute": 0.44372308499879737,
+      "two_way_absolute_ci95": [
+        0.25494108982302904,
+        0.5908041256260199
+      ],
+      "within_sd": 3.567269705849418,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepLengthSigned",
+      "n": 44,
+      "walks_per_person": 5,
+      "one_way": 0.6369707865598374,
+      "one_way_ci95": [
+        0.4752491631426863,
+        0.7378146479757351
+      ],
+      "two_way_absolute": 0.6372401180359777,
+      "two_way_absolute_ci95": [
+        0.47664859003502114,
+        0.7382547601190201
+      ],
+      "within_sd": 4.303267880111023,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "speed",
+      "n": 31,
+      "walks_per_person": 5,
+      "one_way": 0.9020934059538422,
+      "one_way_ci95": [
+        0.8172039144700542,
+        0.9406441121199478
+      ],
+      "two_way_absolute": 0.9023413139758306,
+      "two_way_absolute_ci95": [
+        0.8183175839836968,
+        0.9407370686856419
+      ],
+      "within_sd": 0.06243625009724435,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepTimeAbs",
+      "n": 31,
+      "walks_per_person": 5,
+      "one_way": 0.07615621566805648,
+      "one_way_ci95": [
+        -0.08614010810588041,
+        0.20480167934512075
+      ],
+      "two_way_absolute": 0.07512396477295356,
+      "two_way_absolute_ci95": [
+        -0.07714384459960293,
+        0.20751871317424453
+      ],
+      "within_sd": 3.717337284529942,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepTimeSigned",
+      "n": 31,
+      "walks_per_person": 5,
+      "one_way": 0.0932503133052054,
+      "one_way_ci95": [
+        -0.04957220900230973,
+        0.2416638914168588
+      ],
+      "two_way_absolute": 0.092701011331364,
+      "two_way_absolute_ci95": [
+        -0.042078769292219376,
+        0.24332379641911606
+      ],
+      "within_sd": 5.472244488596517,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepLengthAbs",
+      "n": 31,
+      "walks_per_person": 5,
+      "one_way": 0.364306314578695,
+      "one_way_ci95": [
+        0.17862598125776097,
+        0.5285082520534798
+      ],
+      "two_way_absolute": 0.36594806709068384,
+      "two_way_absolute_ci95": [
+        0.18387017665736527,
+        0.5321616296400752
+      ],
+      "within_sd": 3.987198445617405,
+      "bootstrap_valid": 5000
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepLengthSigned",
+      "n": 31,
+      "walks_per_person": 5,
+      "one_way": 0.6332132072066055,
+      "one_way_ci95": [
+        0.4410264556808216,
+        0.7485122383148811
+      ],
+      "two_way_absolute": 0.634159098814521,
+      "two_way_absolute_ci95": [
+        0.44527075757645546,
+        0.7493577446452924
+      ],
+      "within_sd": 4.732187417263695,
+      "bootstrap_valid": 5000
+    }
+  ],
+  "diagnostics": [
+    {
+      "sample": "all_44",
+      "metric": "stepTimeSigned",
+      "n": 44,
+      "participants_with_both_positive_and_negative": 30,
+      "zero_observations": 38,
+      "total_observations": 220
+    },
+    {
+      "sample": "all_44",
+      "metric": "stepLengthSigned",
+      "n": 44,
+      "participants_with_both_positive_and_negative": 27,
+      "zero_observations": 0,
+      "total_observations": 220
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepTimeSigned",
+      "n": 31,
+      "participants_with_both_positive_and_negative": 22,
+      "zero_observations": 24,
+      "total_observations": 155
+    },
+    {
+      "sample": "age65plus_31",
+      "metric": "stepLengthSigned",
+      "n": 31,
+      "participants_with_both_positive_and_negative": 17,
+      "zero_observations": 0,
+      "total_observations": 155
+    }
+  ]
+}

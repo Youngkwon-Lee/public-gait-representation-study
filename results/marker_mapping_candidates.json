@@ -1,0 +1,218 @@
+[
+  {
+    "source_marker": "LASI",
+    "target_candidate": "L.ASIS",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/pelvis",
+    "reason": "ASIS; same named landmark, actual placement/scale not validated",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RASI",
+    "target_candidate": "r.ASIS",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/pelvis",
+    "reason": "ASIS; same named landmark, actual placement/scale not validated",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LPSI",
+    "target_candidate": "L.PSIS",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/pelvis",
+    "reason": "PSIS; same named landmark, actual placement/scale not validated",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RPSI",
+    "target_candidate": "r.PSIS",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/pelvis",
+    "reason": "PSIS; same named landmark, actual placement/scale not validated",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTHI",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTHAP",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTHAD",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LKNE",
+    "target_candidate": "L_knee",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/femur_l",
+    "reason": "Source PiG description is lateral flexion-axis skin point, not guaranteed epicondyle point; CGM2.3 uses calibration epicondyle markers but not its dynamic IK fit",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTIB",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTIAP",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTIAD",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LANK",
+    "target_candidate": "L_ankle",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/tibia_l",
+    "reason": "Lateral malleolus region; target on tibia with lateral local-z offset; not joint center",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LHEE",
+    "target_candidate": "L_calc",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/calcn_l",
+    "reason": "Posterior calcaneus region; verify source attachment/sole offsets and target before dynamic fit",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "LTOE",
+    "target_candidate": "L_toe",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/calcn_l",
+    "reason": "PiG LTOE is second metatarsal head, not toe tip; target is calcn frame anterior point; actual CGM2.3 dataset placement needs source-protocol check",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTHI",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTHAP",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTHAD",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RKNE",
+    "target_candidate": "r_knee",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/femur_r",
+    "reason": "Source PiG description is lateral flexion-axis skin point, not guaranteed epicondyle point; CGM2.3 uses calibration epicondyle markers but not its dynamic IK fit",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTIB",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTIAP",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTIAD",
+    "target_candidate": null,
+    "status": "NO_ONE_TO_ONE_MAPPING",
+    "target_body_frame": null,
+    "reason": "Segment tracking marker: source location/cluster definition does not establish correspondence to numbered generic OpenSim thigh/shank markers; no arbitrary rename",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RANK",
+    "target_candidate": "r_ankle",
+    "status": "LANDMARK_REGION_SUPPORTED",
+    "target_body_frame": "/bodyset/tibia_r",
+    "reason": "Lateral malleolus region; target on tibia with lateral local-z offset; not joint center",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RHEE",
+    "target_candidate": "r_calc",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/calcn_r",
+    "reason": "Posterior calcaneus region; verify source attachment/sole offsets and target before dynamic fit",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  },
+  {
+    "source_marker": "RTOE",
+    "target_candidate": "r_toe",
+    "status": "PLACEMENT_REVIEW_REQUIRED",
+    "target_body_frame": "/bodyset/calcn_r",
+    "reason": "PiG RTOE is second metatarsal head, not toe tip; target is calcn frame anterior point; actual CGM2.3 dataset placement needs source-protocol check",
+    "active_for_IK": false,
+    "actual_subject_attachment_verified": false
+  }
+]

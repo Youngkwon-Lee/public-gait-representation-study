@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PUBLIC_PORTABLE_NODE_RERUN",
+  "node": "v24.18.0",
+  "unit_tests_passed": 7,
+  "export_frames": 602,
+  "marker_count": 24,
+  "angle_components": 30,
+  "pairwise_checks": 166152,
+  "pairwise_max_error_m": 4.440892098500626e-16,
+  "numeric_payload_sha256": "21d1a20c72f8d01a7b535e0b12b8361e46be2c2c7f46da81375ab1eb52866c1c",
+  "mapping_categories": {
+    "LANDMARK_REGION_SUPPORTED": 6,
+    "NO_ONE_TO_ONE_MAPPING": 12,
+    "PLACEMENT_REVIEW_REQUIRED": 6
+  },
+  "pilot_numeric_results_exact_match": true,
+  "sensitivity_numeric_results_exact_match": true,
+  "original_archive_and_audit_unchanged": true,
+  "opensim_public_refactor_executed": false,
+  "workbook_extractor_included": false
+}
