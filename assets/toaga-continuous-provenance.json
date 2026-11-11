@@ -16,7 +16,7 @@
   "MP4_frames": 150,
   "MP4_fps": 30,
   "MP4_duration_seconds": 5,
-  "GIF_preview_fps": 15,
+  "GIF_preview_fps": 10,
   "body_points": 12,
   "confidence_cutoff": 0.3,
   "CPU_only": true,
@@ -41,13 +41,13 @@
     },
     {
       "file": "toaga-continuous-overlay.gif",
-      "bytes": 6921202,
-      "sha256": "389ae09af1188a72955ac001b0e64a52075bac68bb0224e23a59fa7e0c9e1f78"
+      "bytes": 2917501,
+      "sha256": "03bdea5ca3dd813989860a4aded1a97a535439e6a9be9afe92a8ff4bd1904ce7"
     },
     {
       "file": "toaga-continuous-qc.png",
-      "bytes": 391914,
-      "sha256": "ffcbb78233d7156f57dd46b4b45969a80ef0279b6e3bbe1ec85dd30ba6b367cd"
+      "bytes": 573286,
+      "sha256": "9b785a2dfb458ec95016d3e1ebd324eda4bf7a7d100fa6eeb8f365a29e1c1798"
     },
     {
       "file": "toaga-continuous-predictions.json",

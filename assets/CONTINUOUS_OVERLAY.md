@@ -18,7 +18,7 @@ Twelve body points are thresholded at0.3 confidence. Face points are never rende
 This baseline is **not ready to expand to the cohort without addressing label consistency and missed points**. Source-frame images were reviewed at indices0,31,60,67,95,120,149. That sampled review is not an exhaustive human identity audit.
 
 ## Files
-The MP4 contains all150frames. The15fps GIF is a display preview and can skip individual failures;use the MP4,QC sheet and quality JSON for inspection. toaga-continuous-predictions.json contains this public demo's derived per-frame2D estimates,not participant clinical tables or supplied ground-truth labels. Original full video/PNG frames are not committed.
+The MP4 contains all150frames. The10fps GIF is a display preview and can skip individual failures;use the MP4,QC sheet and quality JSON for inspection. toaga-continuous-predictions.json contains this public demo's derived per-frame2D estimates,not participant clinical tables or supplied ground-truth labels. Original full video/PNG frames are not committed.
 
 ## Reproduce the bounded tracking stage
 
